@@ -1,1 +1,1 @@
-Group Project 0x11. C - printf
+This is a team project on creating custom printf function. Done by Papa Kwasi Safo and David Uchenna
