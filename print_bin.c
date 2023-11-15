@@ -8,7 +8,7 @@
 int print_bin(va_list val)
 {
 	int flag = 0;
-	int cont = 0;
+	int count = 0;
 	int i, a = 1, b;
 	unsigned int num = va_arg(val, unsigned int);
 	unsigned int p;
@@ -22,13 +22,13 @@ int print_bin(va_list val)
 		{
 			b = p >> (31 - i);
 			_putchar(b + 48);
-			cont++;
+			count++;
 		}
 	}
-	if (cont == 0)
+	if (count == 0)
 	{
-		cont++;
+		count++;
 		_putchar('0');
 	}
-	return (cont);
+	return (count);
 }
